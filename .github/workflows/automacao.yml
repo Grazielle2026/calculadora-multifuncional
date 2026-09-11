@@ -45,28 +45,3 @@ jobs:
           echo "Automação executada com sucesso!"
           echo "Calculadora Multifuncional"
           echo "===================================="
-
-
-
-
-
-O que esse código faz?
-name
-name: Automação da Calculadora
-
-É o nome que aparecerá no GitHub Actions.
-
-on: push
-on:
-  push:
-    branches:
-      - main
-
-Significa:
-
-Sempre que houver um push para a branch main, execute a automação.
-
-pull_request
-pull_request:
-  branches:
-    - main
